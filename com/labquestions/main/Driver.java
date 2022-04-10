@@ -21,5 +21,7 @@ public class Driver {
             default:
                 System.out.println("Invalid option. ");
         }
+        
+        sc.close();
     }
 }
